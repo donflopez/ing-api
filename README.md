@@ -63,7 +63,7 @@ const transactions = await ing.getTransactionDetail({
 map(prop('amount'), transactions) // => [-12.95, -56.30, ...]
 ```
 
-### .getTransaction({uuid: xxx}) => Promise\<transaction>
+### .getTransaction({uuid: xxx}) => Promise<{transaction}>
 ```javascript
 // Async context
 const transaction = await ing.getTransactionDetail({uuid: 'xxx'});
